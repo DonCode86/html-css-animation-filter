@@ -101,7 +101,21 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    animation: notallrot infinite linear 3s;
 }
+
+@keyframes notallrot {
+   0% {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
