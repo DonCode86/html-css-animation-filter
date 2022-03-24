@@ -175,3 +175,8 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-13-button {
+   animation: rotation infinite linear 1s;
+}
+/* tecnicamente fa' il giro completo :P */
